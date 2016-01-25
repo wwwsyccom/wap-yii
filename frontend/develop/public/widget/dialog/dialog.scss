@@ -1,0 +1,42 @@
+@import 'd:/work/wap/develop/public/sass/commonScss.scss';
+$hrColor : #cccccc;
+$fontSize: $sizeE;
+#dialog-wraper{
+    position: fixed;
+    z-index: 9999;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgba(1,1,1,0.5);
+    display: -webkit-box;
+    font-size: $fontSize;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    .outer{
+        background-color: #f1f1f1; 
+        border-radius: 0.2rem;
+        max-width: 95%;
+        min-width: 70%;
+    }
+    .title{
+        font-size: $fontSize;
+        line-height: $fontSize * 1.8;
+        text-align: center; 
+        padding: getRem(45) getRem(35);
+    }
+    .ask{
+        display: -webkit-box;
+        span{
+            display: -webkit-box;
+            border-top: 1px solid $hrColor;
+            -webkit-box-flex: 1;
+            padding: getRem(30) getRem(26);
+            -webkit-box-align: center;
+            -webkit-box-pack: center;
+            border-right: 1px solid $hrColor;
+            &:last-child{
+                border-right: none;
+            }
+        }
+    }
+}

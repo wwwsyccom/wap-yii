@@ -1,0 +1,35 @@
+#dialog-wraper {
+  position: fixed;
+  z-index: 9999;
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
+  background-color: rgba(1, 1, 1, 0.5);
+  display: -webkit-box;
+  font-size: 0.5rem;
+  -webkit-box-align: center;
+  -webkit-box-pack: center; }
+  #dialog-wraper .outer {
+    background-color: #f1f1f1;
+    border-radius: 0.2rem;
+    max-width: 95%;
+    min-width: 70%; }
+  #dialog-wraper .title {
+    font-size: 0.5rem;
+    line-height: 0.9rem;
+    text-align: center;
+    padding: 0.70313rem 0.54688rem; }
+  #dialog-wraper .ask {
+    display: -webkit-box; }
+    #dialog-wraper .ask span {
+      display: -webkit-box;
+      border-top: 1px solid #cccccc;
+      -webkit-box-flex: 1;
+      padding: 0.46875rem 0.40625rem;
+      -webkit-box-align: center;
+      -webkit-box-pack: center;
+      border-right: 1px solid #cccccc; }
+      #dialog-wraper .ask span:last-child {
+        border-right: none; }
+
+/*# sourceMappingURL=dialog.css.map */

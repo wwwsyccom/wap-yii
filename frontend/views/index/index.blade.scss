@@ -1,0 +1,26 @@
+@import 'd:/work/h5/public/sass/commonScss.scss';
+html,body{
+    height: auto!important;
+}
+body{
+    color: white;
+    padding-bottom: 1rem!important;
+}
+.section-title{
+    height: getRem(64);
+    padding: 0px $padLeft;
+    border-bottom: 1px solid #cccccc;
+    color: $mainColorBlack3;
+    background-size: getRem(24) getRem(32);
+    background-repeat: no-repeat;
+    background-position: left center;
+    font-size: 12px;
+    display: -webkit-box;
+    -webkit-box-align: center;
+    span{
+        margin-right: getRem(10);
+        display: -webkit-box;
+        height: 100%;
+        -webkit-box-align: center;
+    }
+}

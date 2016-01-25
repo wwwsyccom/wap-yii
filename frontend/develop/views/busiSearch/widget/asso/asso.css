@@ -1,0 +1,18 @@
+#busi-asso {
+  margin-top: 0.3125rem;
+  background-color: white;
+  padding: 0px 0.3125rem; }
+  #busi-asso li {
+    height: 1.25rem;
+    display: -webkit-box;
+    -webkit-box-pack: justify;
+    border-bottom: 1px solid #f1f1f1; }
+  #busi-asso .name {
+    font-size: 0.4375rem; }
+  #busi-asso .state {
+    font-size: 0.375rem; }
+  #busi-asso span {
+    display: -webkit-box;
+    -webkit-box-align: center; }
+
+/*# sourceMappingURL=asso.css.map */

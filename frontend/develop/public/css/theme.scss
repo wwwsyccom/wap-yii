@@ -1,0 +1,35 @@
+@function getRem($px){
+    @return $px / 640 * 10px;
+}
+$colorMap : (
+    0: #000000,
+    1: #333333,
+    2: #666666,
+    3: #999999,
+    4: #ffffff,
+    5: #fa4700,
+    6: #f0f0f0,
+    7: #d7d7d7,
+    8: #e5e5e5,
+    9: #fe0101,
+    10: #cccccc,
+    11: #fc7c1e,
+    12: #b2b2b2,
+    13: #007aff,
+    14: #ffedeb,
+    15: #f8f8f8,
+    16: #8a8a8a,
+    17: #6c6c6c,
+    18: #e2e2e2
+);
+@for $i from 0 through 18 {
+    .color-#{$i}{
+        color: map_get($colorMap, $i)!important;
+    }
+    .bgColor-#{$i}{
+        background-color: map_get($colorMap, $i)!important;
+    }
+    .bdColor-#{$i}{
+        border-color: map_get($colorMap, $i)!important;
+    }
+}

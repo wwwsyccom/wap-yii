@@ -1,0 +1,92 @@
+select {
+  direction: rtl; }
+
+#confirm-order-ul li {
+  margin-top: 0.3125rem;
+  padding: 0 0.3125rem;
+  background-color: white;
+  height: 1.375rem;
+  -webkit-box-align: center;
+  -webkit-box-pack: justify;
+  display: -webkit-box; }
+  #confirm-order-ul li div {
+    height: 100%; }
+#confirm-order-ul .input-wrap {
+  margin-left: 1rem;
+  -webkit-box-flex: 1;
+  -webkit-box-pack: end; }
+#confirm-order-ul .li-verticle {
+  -webkit-box-orient: vertical;
+  height: auto; }
+  #confirm-order-ul .li-verticle > div {
+    width: 100%;
+    height: 1.375rem;
+    display: -webkit-box;
+    -webkit-box-pack: justify;
+    -webkit-box-align: center;
+    border-bottom: 1px solid #f1f1f1; }
+    #confirm-order-ul .li-verticle > div:last-child {
+      border: none; }
+#confirm-order-ul li.menu div {
+  height: 1.1875rem; }
+#confirm-order-ul span {
+  display: -webkit-box;
+  -webkit-box-align: center;
+  height: 100%; }
+#confirm-order-ul .input-wrap {
+  position: relative; }
+#confirm-order-ul input, #confirm-order-ul select {
+  position: absolute;
+  z-index: 99;
+  right: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  -webkit-box-sizing: border-box;
+  text-align: right; }
+#confirm-order-ul span.check {
+  font-size: 0.3125rem;
+  border: 2px solid white;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -webkit-box-align: center;
+  -webkit-box-pack: center; }
+
+table {
+  background-color: white;
+  margin-top: 0.3125rem;
+  width: 100%;
+  padding: 0px 0.3125rem; }
+
+th {
+  border-bottom: 1px solid #f1f1f1; }
+
+th, td {
+  height: 1.375rem; }
+
+.align-right {
+  width: 10px;
+  padding-left: 0.625rem; }
+
+#confirm-order-footer {
+  margin-top: 0.78125rem;
+  background-color: white;
+  width: 100%;
+  height: 1.40625rem;
+  display: -webkit-box; }
+  #confirm-order-footer span {
+    display: -webkit-box; }
+  #confirm-order-footer > span {
+    -webkit-box-flex: 1;
+    -webkit-box-align: center;
+    -webkit-box-pack: center; }
+    #confirm-order-footer > span:first-child > span:first-child {
+      margin-right: 0.23438rem; }
+  #confirm-order-footer .confirm-button {
+    -webkit-box-flex: 0;
+    width: 4.0625rem; }
+
+/*# sourceMappingURL=confirm.blade.css.map */

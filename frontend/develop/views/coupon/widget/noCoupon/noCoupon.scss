@@ -1,0 +1,28 @@
+@import 'd:/work/h5/public/sass/commonScss.scss';
+#noResult{
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    -webkit-box-orient: vertical;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    .icon{
+        $width : getRem(100);
+        width: $width;
+        height: $width;
+        border-radius: $width;
+        -webkit-border-radius: $width;
+        background-color: #d7d7d7;
+        color: white;
+        display: -webkit-box;
+        -webkit-box-pack: center;
+        -webkit-box-align: center;
+    }
+    .tip{
+        margin-top: getRem(30);
+        color: $mainColorBlack6;
+    }
+}

@@ -1,0 +1,38 @@
+@import 'public/sass/commonScss.scss';
+$headerHeight: getRem(88);
+#index-header{
+    width: 100%;
+    position: relative;
+    z-index: 99999;
+    height: $headerHeight; 
+    background-color: $mainColorRed1;
+    display: box;
+    display: -webkit-box;
+    -webkit-box-pack: justify;
+    position: relative;
+    overflow: visible;
+    box-sizing:border-box;
+    -webkit-box-sizing: border-box;
+    div,span,i{
+        display: box;
+        display: -webkit-box;
+        -webkit-box-pack: center;
+        -webkit-box-align: center;
+        color: white;
+    }
+    .address{
+        span{
+            font-size: getRem(30);
+            margin: 0rem getRem(14);
+        }
+    }
+    > i{
+        width: getRem(52);
+        &:first-child{
+            padding-left: getRem(20);
+        }
+        &:nth-child(3){
+            padding-right: getRem(20);
+        }
+    }
+}

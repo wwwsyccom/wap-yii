@@ -1,0 +1,52 @@
+<section id="index-nearby-section" class="hide">
+<h1 class="section-title color-5"><span class="iconfont">&#xe6fe;</span><span class="color-1">附近店铺</span></h1>
+<ul id="index-nearby">
+<script type="text/html" id="index-nearby-script">
+	    <%for(var i = 0, len = data.length; i < len; i++){%>
+			<li>
+				<div>
+					<div class="busi-img">
+						<img src = "<%=data[i].photo %>" />
+					</div>
+					<div>
+						<div class="name-wrapper"><span class="name"><%=data[i].name %></span><span class="reservable <%=data[i].reservableHide %>">可订座</span></div>
+						<div class="address"><%=data[i].location_info %></div>
+					</div>
+					<div>
+						<div class="state"><%=data[i].status==0?'营业中':'休息中' %></div>
+						<div class="distance"><%=data[i].distance %></div>
+					</div>
+				</div>
+				<div class="hide">
+					特价菜品限时秒杀
+				</div>
+			</li>
+		<%}%>
+</script>
+</ul>
+<!--
+<section id="index-nearby">
+	<ul>
+		<li>
+			<div>
+				<div class="busi-img">
+					<img src = "img/busi.jpg" />
+				</div>
+				<div>
+					<div><span class="name">瓦罐香沸</span><span class="reservable">可订座</span></div>
+					<div class="address">苏州街78号中关村购物中心</div>
+				</div>
+				<div>
+					<div class="state">营业中</div>
+					<div class="distance">50m</div>
+				</div>
+			</div>
+			<div>
+				特价菜品限时秒杀
+			</div>
+		</li>
+	</ul>
+</section>
+-->
+
+</section>

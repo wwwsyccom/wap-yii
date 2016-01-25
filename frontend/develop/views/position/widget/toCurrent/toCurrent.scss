@@ -1,0 +1,19 @@
+@import 'd:/work/wap/develop/public/sass/commonScss.scss';
+#position-toCurrent{
+    margin-top: $marginTopPosition;
+    width: 100%;
+    overflow: hidden;
+    height: getRem(90);
+    background-color: white;
+    padding: 0px $padLeft;
+    display: -webkit-box;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    span{
+        display: -webkit-box;
+        height: 100%;
+        -webkit-box-align: center;
+        margin-right: getRem(20);
+        font-size: $sizeC;
+    }
+}

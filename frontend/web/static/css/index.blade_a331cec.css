@@ -1,0 +1,25 @@
+html, body {
+  height: auto !important; }
+
+body {
+  color: white;
+  padding-bottom: 1rem !important; }
+
+.section-title {
+  height: 1rem;
+  padding: 0px 0.3125rem;
+  border-bottom: 1px solid #cccccc;
+  color: #333333;
+  background-size: 0.375rem 0.5rem;
+  background-repeat: no-repeat;
+  background-position: left center;
+  font-size: 12px;
+  display: -webkit-box;
+  -webkit-box-align: center; }
+  .section-title span {
+    margin-right: 0.15625rem;
+    display: -webkit-box;
+    height: 100%;
+    -webkit-box-align: center; }
+
+/*# sourceMappingURL=index.blade.css.map */

@@ -1,0 +1,18 @@
+#position-toCurrent {
+  margin-top: 0.3125rem;
+  width: 100%;
+  overflow: hidden;
+  height: 1.40625rem;
+  background-color: white;
+  padding: 0px 0.3125rem;
+  display: -webkit-box;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+  #position-toCurrent span {
+    display: -webkit-box;
+    height: 100%;
+    -webkit-box-align: center;
+    margin-right: 0.3125rem;
+    font-size: 0.4375rem; }
+
+/*# sourceMappingURL=toCurrent.css.map */

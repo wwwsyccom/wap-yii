@@ -1,0 +1,598 @@
+{
+    "code": 0, 
+    "msg": "", 
+    "data": [
+        {
+            "id": 1, 
+            "photo": "http://c.hiphotos.baidu.com/image/w%3D400/sign=c2318ff84334970a4773112fa5c8d1c0/b7fd5266d0160924c1fae5ccd60735fae7cd340d.jpg", 
+            "status": 1, 
+            "location_info": "北京市海淀区", 
+            "monthly_sales": 1200, 
+            "wait_speed": 40, 
+            "name": "陕西面馆", 
+            "distance": 2.8, 
+            "book": 0, 
+            "merchant_coupon_type": 2, 
+            "corp_coupon_type": 3,
+            "discount_rate": 0.8, 
+            "corp_discount_rate":0.95,
+            "is_special": 1,
+            "full_reduce": [
+                {
+                    "id": 1, 
+                    "amount": 10, 
+                    "order_limit": 50
+                }, 
+                {
+                    "id": 1, 
+                    "amount": 20, 
+                    "order_limit": 100
+                }
+            ], 
+            "latitude": "39.946863", 
+            "longitude": "39.946863", 
+            "business_hours": [
+                {
+                    "opening_time": "08:30", 
+                    "closing_time": "23:00"
+                }, 
+                {
+                    "opening_time": "08:30", 
+                    "closing_time": "23:00"
+                }
+            ], 
+            "phone": "1110", 
+            "information": "商家打8折", 
+            "busy_hours": [
+                {
+                    "opening_time": "08:30", 
+                    "closing_time": "22:00"
+                }
+            ],
+            "restaurant_tag": 1,
+            "foods": [
+                {
+                    "id": 1,
+                    "name": "茄子",
+                    "photo": "/a/b",
+                    "price": 18,
+                    "init_price": 20
+                },
+                {
+                    "id": 2,
+                    "name": "红烧鸡块",
+                    "photo": "/a/b",
+                    "price": 32,
+                    "init_price": 40
+                }
+            ]
+        },{
+            "id": 1, 
+            "photo": "http://c.hiphotos.baidu.com/image/w%3D400/sign=c2318ff84334970a4773112fa5c8d1c0/b7fd5266d0160924c1fae5ccd60735fae7cd340d.jpg", 
+            "status": 1, 
+            "location_info": "北京市海淀区", 
+            "monthly_sales": 1200, 
+            "wait_speed": 40, 
+            "name": "陕西面馆", 
+            "distance": 2.8, 
+            "book": 1, 
+            "merchant_coupon_type": 2, 
+            "corp_coupon_type": 3,
+            "discount_rate": 0.8, 
+            "corp_discount_rate":0.95,
+            "is_special": 1,
+            "full_reduce": [
+                {
+                    "id": 1, 
+                    "amount": 10, 
+                    "order_limit": 50
+                }, 
+                {
+                    "id": 1, 
+                    "amount": 20, 
+                    "order_limit": 100
+                }
+            ], 
+            "latitude": "39.946863", 
+            "longitude": "39.946863", 
+            "business_hours": [
+                {
+                    "opening_time": "08:30", 
+                    "closing_time": "23:00"
+                }, 
+                {
+                    "opening_time": "08:30", 
+                    "closing_time": "23:00"
+                }
+            ], 
+            "phone": "1110", 
+            "information": "商家打8折", 
+            "busy_hours": [
+                {
+                    "opening_time": "08:30", 
+                    "closing_time": "22:00"
+                }
+            ],
+            "restaurant_tag": 1,
+            "foods": [
+                {
+                    "id": 1,
+                    "name": "茄子",
+                    "photo": "/a/b",
+                    "price": 18,
+                    "init_price": 20
+                },
+                {
+                    "id": 2,
+                    "name": "红烧鸡块",
+                    "photo": "/a/b",
+                    "price": 32,
+                    "init_price": 40
+                }
+            ]
+        },{
+        
+            "id": 1, 
+            "photo": "http://c.hiphotos.baidu.com/image/w%3D400/sign=c2318ff84334970a4773112fa5c8d1c0/b7fd5266d0160924c1fae5ccd60735fae7cd340d.jpg", 
+            "status": 1, 
+            "location_info": "北京市海淀区", 
+            "monthly_sales": 1200, 
+            "wait_speed": 40, 
+            "name": "陕西面馆", 
+            "distance": 2.8, 
+            "book": 1, 
+            "merchant_coupon_type": 2, 
+            "corp_coupon_type": 3,
+            "discount_rate": 0.8, 
+            "corp_discount_rate":0.95,
+            "is_special": 1,
+            "full_reduce": [
+                {
+                    "id": 1, 
+                    "amount": 10, 
+                    "order_limit": 50
+                }, 
+                {
+                    "id": 1, 
+                    "amount": 20, 
+                    "order_limit": 100
+                }
+            ], 
+            "latitude": "39.946863", 
+            "longitude": "39.946863", 
+            "business_hours": [
+                {
+                    "opening_time": "08:30", 
+                    "closing_time": "23:00"
+                }, 
+                {
+                    "opening_time": "08:30", 
+                    "closing_time": "23:00"
+                }
+            ], 
+            "phone": "1110", 
+            "information": "商家打8折", 
+            "busy_hours": [
+                {
+                    "opening_time": "08:30", 
+                    "closing_time": "22:00"
+                }
+            ],
+            "restaurant_tag": 1,
+            "foods": [
+                {
+                    "id": 1,
+                    "name": "茄子",
+                    "photo": "/a/b",
+                    "price": 18,
+                    "init_price": 20
+                },
+                {
+                    "id": 2,
+                    "name": "红烧鸡块",
+                    "photo": "/a/b",
+                    "price": 32,
+                    "init_price": 40
+                }
+            ]
+        },{
+        
+        
+            "id": 1, 
+            "photo": "http://c.hiphotos.baidu.com/image/w%3D400/sign=c2318ff84334970a4773112fa5c8d1c0/b7fd5266d0160924c1fae5ccd60735fae7cd340d.jpg", 
+            "status": 1, 
+            "location_info": "北京市海淀区", 
+            "monthly_sales": 1200, 
+            "wait_speed": 40, 
+            "name": "陕西面馆", 
+            "distance": 2.8, 
+            "book": 1, 
+            "merchant_coupon_type": 2, 
+            "corp_coupon_type": 3,
+            "discount_rate": 0.8, 
+            "corp_discount_rate":0.95,
+            "is_special": 1,
+            "full_reduce": [
+                {
+                    "id": 1, 
+                    "amount": 10, 
+                    "order_limit": 50
+                }, 
+                {
+                    "id": 1, 
+                    "amount": 20, 
+                    "order_limit": 100
+                }
+            ], 
+            "latitude": "39.946863", 
+            "longitude": "39.946863", 
+            "business_hours": [
+                {
+                    "opening_time": "08:30", 
+                    "closing_time": "23:00"
+                }, 
+                {
+                    "opening_time": "08:30", 
+                    "closing_time": "23:00"
+                }
+            ], 
+            "phone": "1110", 
+            "information": "商家打8折", 
+            "busy_hours": [
+                {
+                    "opening_time": "08:30", 
+                    "closing_time": "22:00"
+                }
+            ],
+            "restaurant_tag": 1,
+            "foods": [
+                {
+                    "id": 1,
+                    "name": "茄子",
+                    "photo": "/a/b",
+                    "price": 18,
+                    "init_price": 20
+                },
+                {
+                    "id": 2,
+                    "name": "红烧鸡块",
+                    "photo": "/a/b",
+                    "price": 32,
+                    "init_price": 40
+                }
+            ]
+        },{
+        
+        
+            "id": 1, 
+            "photo": "http://c.hiphotos.baidu.com/image/w%3D400/sign=c2318ff84334970a4773112fa5c8d1c0/b7fd5266d0160924c1fae5ccd60735fae7cd340d.jpg", 
+            "status": 1, 
+            "location_info": "北京市海淀区", 
+            "monthly_sales": 1200, 
+            "wait_speed": 40, 
+            "name": "陕西面馆", 
+            "distance": 2.8, 
+            "book": 1, 
+            "merchant_coupon_type": 2, 
+            "corp_coupon_type": 3,
+            "discount_rate": 0.8, 
+            "corp_discount_rate":0.95,
+            "is_special": 1,
+            "full_reduce": [
+                {
+                    "id": 1, 
+                    "amount": 10, 
+                    "order_limit": 50
+                }, 
+                {
+                    "id": 1, 
+                    "amount": 20, 
+                    "order_limit": 100
+                }
+            ], 
+            "latitude": "39.946863", 
+            "longitude": "39.946863", 
+            "business_hours": [
+                {
+                    "opening_time": "08:30", 
+                    "closing_time": "23:00"
+                }, 
+                {
+                    "opening_time": "08:30", 
+                    "closing_time": "23:00"
+                }
+            ], 
+            "phone": "1110", 
+            "information": "商家打8折", 
+            "busy_hours": [
+                {
+                    "opening_time": "08:30", 
+                    "closing_time": "22:00"
+                }
+            ],
+            "restaurant_tag": 1,
+            "foods": [
+                {
+                    "id": 1,
+                    "name": "茄子",
+                    "photo": "/a/b",
+                    "price": 18,
+                    "init_price": 20
+                },
+                {
+                    "id": 2,
+                    "name": "红烧鸡块",
+                    "photo": "/a/b",
+                    "price": 32,
+                    "init_price": 40
+                }
+            ]
+        },{
+        
+        
+            "id": 1, 
+            "photo": "http://c.hiphotos.baidu.com/image/w%3D400/sign=c2318ff84334970a4773112fa5c8d1c0/b7fd5266d0160924c1fae5ccd60735fae7cd340d.jpg", 
+            "status": 1, 
+            "location_info": "北京市海淀区", 
+            "monthly_sales": 1200, 
+            "wait_speed": 40, 
+            "name": "陕西面馆", 
+            "distance": 2.8, 
+            "book": 1, 
+            "merchant_coupon_type": 2, 
+            "corp_coupon_type": 3,
+            "discount_rate": 0.8, 
+            "corp_discount_rate":0.95,
+            "is_special": 1,
+            "full_reduce": [
+                {
+                    "id": 1, 
+                    "amount": 10, 
+                    "order_limit": 50
+                }, 
+                {
+                    "id": 1, 
+                    "amount": 20, 
+                    "order_limit": 100
+                }
+            ], 
+            "latitude": "39.946863", 
+            "longitude": "39.946863", 
+            "business_hours": [
+                {
+                    "opening_time": "08:30", 
+                    "closing_time": "23:00"
+                }, 
+                {
+                    "opening_time": "08:30", 
+                    "closing_time": "23:00"
+                }
+            ], 
+            "phone": "1110", 
+            "information": "商家打8折", 
+            "busy_hours": [
+                {
+                    "opening_time": "08:30", 
+                    "closing_time": "22:00"
+                }
+            ],
+            "restaurant_tag": 1,
+            "foods": [
+                {
+                    "id": 1,
+                    "name": "茄子",
+                    "photo": "/a/b",
+                    "price": 18,
+                    "init_price": 20
+                },
+                {
+                    "id": 2,
+                    "name": "红烧鸡块",
+                    "photo": "/a/b",
+                    "price": 32,
+                    "init_price": 40
+                }
+            ]
+        },{
+        
+        
+            "id": 1, 
+            "photo": "http://c.hiphotos.baidu.com/image/w%3D400/sign=c2318ff84334970a4773112fa5c8d1c0/b7fd5266d0160924c1fae5ccd60735fae7cd340d.jpg", 
+            "status": 1, 
+            "location_info": "北京市海淀区", 
+            "monthly_sales": 1200, 
+            "wait_speed": 40, 
+            "name": "陕西面馆", 
+            "distance": 2.8, 
+            "book": 1, 
+            "merchant_coupon_type": 2, 
+            "corp_coupon_type": 3,
+            "discount_rate": 0.8, 
+            "corp_discount_rate":0.95,
+            "is_special": 1,
+            "full_reduce": [
+                {
+                    "id": 1, 
+                    "amount": 10, 
+                    "order_limit": 50
+                }, 
+                {
+                    "id": 1, 
+                    "amount": 20, 
+                    "order_limit": 100
+                }
+            ], 
+            "latitude": "39.946863", 
+            "longitude": "39.946863", 
+            "business_hours": [
+                {
+                    "opening_time": "08:30", 
+                    "closing_time": "23:00"
+                }, 
+                {
+                    "opening_time": "08:30", 
+                    "closing_time": "23:00"
+                }
+            ], 
+            "phone": "1110", 
+            "information": "商家打8折", 
+            "busy_hours": [
+                {
+                    "opening_time": "08:30", 
+                    "closing_time": "22:00"
+                }
+            ],
+            "restaurant_tag": 1,
+            "foods": [
+                {
+                    "id": 1,
+                    "name": "茄子",
+                    "photo": "/a/b",
+                    "price": 18,
+                    "init_price": 20
+                },
+                {
+                    "id": 2,
+                    "name": "红烧鸡块",
+                    "photo": "/a/b",
+                    "price": 32,
+                    "init_price": 40
+                }
+            ]
+        
+        },{
+        
+        
+            "id": 1, 
+            "photo": "http://c.hiphotos.baidu.com/image/w%3D400/sign=c2318ff84334970a4773112fa5c8d1c0/b7fd5266d0160924c1fae5ccd60735fae7cd340d.jpg", 
+            "status": 1, 
+            "location_info": "北京市海淀区", 
+            "monthly_sales": 1200, 
+            "wait_speed": 40, 
+            "name": "陕西面馆", 
+            "distance": 2.8, 
+            "book": 1, 
+            "merchant_coupon_type": 2, 
+            "corp_coupon_type": 3,
+            "discount_rate": 0.8, 
+            "corp_discount_rate":0.95,
+            "is_special": 1,
+            "full_reduce": [
+                {
+                    "id": 1, 
+                    "amount": 10, 
+                    "order_limit": 50
+                }, 
+                {
+                    "id": 1, 
+                    "amount": 20, 
+                    "order_limit": 100
+                }
+            ], 
+            "latitude": "39.946863", 
+            "longitude": "39.946863", 
+            "business_hours": [
+                {
+                    "opening_time": "08:30", 
+                    "closing_time": "23:00"
+                }, 
+                {
+                    "opening_time": "08:30", 
+                    "closing_time": "23:00"
+                }
+            ], 
+            "phone": "1110", 
+            "information": "商家打8折", 
+            "busy_hours": [
+                {
+                    "opening_time": "08:30", 
+                    "closing_time": "22:00"
+                }
+            ],
+            "restaurant_tag": 1,
+            "foods": [
+                {
+                    "id": 1,
+                    "name": "茄子",
+                    "photo": "/a/b",
+                    "price": 18,
+                    "init_price": 20
+                },
+                {
+                    "id": 2,
+                    "name": "红烧鸡块",
+                    "photo": "/a/b",
+                    "price": 32,
+                    "init_price": 40
+                }
+            ]
+        
+        },{
+        
+        
+            "id": 1, 
+            "photo": "http://c.hiphotos.baidu.com/image/w%3D400/sign=c2318ff84334970a4773112fa5c8d1c0/b7fd5266d0160924c1fae5ccd60735fae7cd340d.jpg", 
+            "status": 1, 
+            "location_info": "北京市海淀区", 
+            "monthly_sales": 1200, 
+            "wait_speed": 40, 
+            "name": "陕西面馆", 
+            "distance": 2.8, 
+            "book": 1, 
+            "merchant_coupon_type": 2, 
+            "corp_coupon_type": 3,
+            "discount_rate": 0.8, 
+            "corp_discount_rate":0.95,
+            "is_special": 1,
+            "full_reduce": [
+                {
+                    "id": 1, 
+                    "amount": 10, 
+                    "order_limit": 50
+                }, 
+                {
+                    "id": 1, 
+                    "amount": 20, 
+                    "order_limit": 100
+                }
+            ], 
+            "latitude": "39.946863", 
+            "longitude": "39.946863", 
+            "business_hours": [
+                {
+                    "opening_time": "08:30", 
+                    "closing_time": "23:00"
+                }, 
+                {
+                    "opening_time": "08:30", 
+                    "closing_time": "23:00"
+                }
+            ], 
+            "phone": "1110", 
+            "information": "商家打8折", 
+            "busy_hours": [
+                {
+                    "opening_time": "08:30", 
+                    "closing_time": "22:00"
+                }
+            ],
+            "restaurant_tag": 1,
+            "foods": [
+                {
+                    "id": 1,
+                    "name": "茄子",
+                    "photo": "/a/b",
+                    "price": 18,
+                    "init_price": 20
+                },
+                {
+                    "id": 2,
+                    "name": "红烧鸡块",
+                    "photo": "/a/b",
+                    "price": 32,
+                    "init_price": 40
+                }
+            ]
+        }
+    ]
+}

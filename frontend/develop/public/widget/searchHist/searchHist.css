@@ -1,0 +1,29 @@
+#searchHist {
+  background-color: white; }
+  #searchHist h1 {
+    padding: 0px 0.3125rem;
+    height: 0.9375rem;
+    display: -webkit-box;
+    -webkit-box-align: center;
+    font-size: 0.375rem; }
+  #searchHist ul {
+    padding: 0px 0.3125rem; }
+  #searchHist li {
+    font-size: 0.4375rem;
+    height: 1.25rem;
+    display: -webkit-box;
+    border-bottom: 1px solid #f1f1f1; }
+    #searchHist li span {
+      display: -webkit-box;
+      height: 100%;
+      -webkit-box-align: center; }
+  #searchHist .name {
+    line-height: 1.25rem;
+    margin-left: 0.40625rem; }
+  #searchHist footer {
+    height: 1.32813rem;
+    line-height: 1.32813rem;
+    text-align: center;
+    font-size: 0.4375rem; }
+
+/*# sourceMappingURL=searchHist.css.map */

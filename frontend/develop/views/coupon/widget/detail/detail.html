@@ -1,0 +1,41 @@
+<script type="text/html" id="coupon-detail-script">
+	<div id="coupon-detail">
+		<p class="color-1">支付订单时会自动加载优惠券，请在有效期内尽快使用哦~</p>
+		<ul>
+			<%for(var i=0,len=data.length;i<len;i++){%>
+				<%if(data[i].used!=1 && data[i].expired!=1){%>
+				<li class="bgColor-11">
+					<span class="rmb color-4">¥</span><span class="color-4 money"><%=data[i].amount %></span>
+					<span class="color-4 desc1">使用此优惠券可减免<%=data[i].amount %>元</span>
+					<span class="color-4 desc2">有效期至<%=data[i].end_at %></span>
+				</li>
+				<%}else{%>
+					<li class="bgColor-8">
+						<span class="rmb color-12">¥</span><span class="color-12 money"><%=data[i].amount %></span>
+						<span class="color-12 desc1">使用此优惠券可减免<%=data[i].amount %>元</span>
+						<span class="color-12 desc2">有效期至<%=data[i].end_at %></span>
+						<span class="state bgColor-10 color-4"><%=data[i].used==1?'已使用':'已过期'%></span>
+					</li>
+				<%}%>
+			<%}%>
+		</ul>
+	</div>
+</script>
+<!--
+<div id="coupon-detail">
+	<p class="color-1">支付订单时会自动加载优惠券，请在有效期内尽快使用哦~</p>
+	<ul>
+		<li class="bgColor-11">
+			<span class="rmb color-4">¥</span><span class="color-4 money">8</span>
+			<span class="color-4 desc1">使用此优惠券可减免8元</span>
+			<span class="color-4 desc2">有效期至2015-12-12</span>
+		</li>
+		<li class="bgColor-8">
+			<span class="rmb color-12">¥</span><span class="color-12 money">8</span>
+			<span class="color-12 desc1">使用此优惠券可减免8元</span>
+			<span class="color-12 desc2">有效期至2015-12-12</span>
+			<span class="state bgColor-10 color-4">已过期</span>
+		</li>
+	</ul>
+</div>
+-->

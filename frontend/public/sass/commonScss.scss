@@ -1,0 +1,23 @@
+@function getRem($px){
+    @return $px / 640 * 10rem;
+}
+
+$mainColorBac : #f0f0f0;
+$mainColorBlack3 : #333333;
+$mainColorBlack4 : #444444;
+$mainColorBlack6 : #666666;
+$mainColorBlack9 : #999999;
+$mainColorRed1 : #fa4700;
+$padLeft: getRem(20);
+$hrColor: #f1f1f1;
+
+$sizeA : getRem(24);
+$sizeB : getRem(26);
+$sizeC : getRem(28);
+$sizeD : getRem(30);
+$sizeE : getRem(32);
+$sizeF : getRem(22);
+$sizeG : getRem(60);
+$sizeH : getRem(20);
+
+$marginTopPosition: getRem(20);

@@ -1,0 +1,22 @@
+@import 'd:/work/wap/develop/public/sass/commonScss.scss';
+#busi-asso{
+    margin-top: getRem(20);
+    background-color: white;
+    padding: 0px $padLeft;
+    li{
+        height: getRem(80);
+        display: -webkit-box;
+        -webkit-box-pack: justify;
+        border-bottom: 1px solid $hrColor;
+    }
+    .name{
+        font-size: $sizeC;
+    }
+    .state{
+        font-size: $sizeA;
+    }
+    span{
+        display: -webkit-box;
+        -webkit-box-align: center;
+    }
+}

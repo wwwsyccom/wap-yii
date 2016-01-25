@@ -1,0 +1,47 @@
+#coupon-detail p {
+  margin: 0.9375rem 0.89063rem 1.25rem;
+  font-size: 0.4375rem; }
+#coupon-detail li {
+  margin: 0 0.89063rem 0.9375rem;
+  height: 2.26563rem;
+  width: 8.14063rem;
+  position: relative;
+  overflow: hidden; }
+#coupon-detail span {
+  position: absolute; }
+#coupon-detail .rmb {
+  bottom: 0.78125rem;
+  left: 0.39063rem;
+  font-size: 0.46875rem; }
+#coupon-detail .money {
+  display: -webkit-box;
+  height: 100%;
+  -webkit-box-align: center;
+  top: 0px;
+  font-size: 0.9375rem;
+  left: 0.9375rem; }
+#coupon-detail .desc1 {
+  font-size: 0.40625rem;
+  top: 0.625rem;
+  left: 2.8125rem; }
+#coupon-detail .desc2 {
+  font-size: 0.40625rem;
+  bottom: 0.625rem;
+  left: 2.8125rem; }
+#coupon-detail .state {
+  height: 1.5625rem;
+  width: 4.6875rem;
+  right: -2.0625rem;
+  top: -0.59375rem;
+  display: block;
+  font-size: 0.375rem;
+  text-align: center;
+  line-height: 2.5rem;
+  -webkit-transform: rotate(45deg); }
+
+canvas {
+  position: absolute;
+  bottom: -2px;
+  left: 0px; }
+
+/*# sourceMappingURL=detail.css.map */

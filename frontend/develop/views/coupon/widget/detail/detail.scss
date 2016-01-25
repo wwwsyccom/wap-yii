@@ -1,0 +1,57 @@
+@import 'd:/work/wap/develop/public/sass/commonScss.scss';
+$padLeft : getRem(57);
+#coupon-detail{
+    p{
+        margin: getRem(60) $padLeft getRem(80);
+        font-size: $sizeC;
+    }
+    li{
+        margin: 0 $padLeft getRem(60);
+        height: getRem(145);
+        width: getRem(521);
+        position: relative;
+        overflow: hidden;
+    }
+    span{
+        position: absolute;
+    }
+    .rmb{
+        bottom: getRem(50);
+        left: getRem(25);
+        font-size: $sizeD;
+    }
+    .money{
+        display: -webkit-box;
+        height: 100%;
+        -webkit-box-align: center;
+        top: 0px;
+        font-size: $sizeG;
+        left: getRem(60);
+    }
+    .desc1{
+        font-size: $sizeB;
+        top: getRem(40);
+        left: getRem(180);
+    }
+    .desc2{
+        font-size: $sizeB;
+        bottom: getRem(40);
+        left: getRem(180);
+    }
+    .state{
+        height: getRem(100);
+        width: getRem(300);
+        right: - getRem(132);
+        top: - getRem(38);
+        display: block;
+        font-size: $sizeA;
+        text-align: center;
+        line-height: getRem(160);
+        -webkit-transform:rotate(45deg); 
+    }
+}
+canvas{
+    position: absolute;
+    bottom: -2px;
+    left: 0px;
+}

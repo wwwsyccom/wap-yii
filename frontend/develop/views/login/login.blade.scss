@@ -1,0 +1,68 @@
+@import 'd:/work/wap/develop/public/sass/commonScss.scss';
+#login{
+    background-color: white;
+    padding: 0px $padLeft;
+    p{
+        position: relative;
+        height: getRem(90);
+        &:first-child{
+            border-bottom: 1px solid $hrColor;
+        }
+    }
+    $inputHeight : getRem(62);
+    input,span{
+        display: -webkit-box;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -webkit-box-align: center;
+        height: $inputHeight;
+        position: absolute;
+        top: 50%;
+        margin-top: - ($inputHeight / 2);
+    }
+    input{
+        left: 0px;
+        border: none;
+        background-color: transparent;
+        z-index: 99;
+        &::-webkit-inner-spin-button {
+             -webkit-appearance: none;
+        }
+    }
+    .hint{
+        font-size: $sizeA;
+        left: 0px;
+        z-index: 9;
+    }
+    .phone-hint, .phone{
+        width: 100%;
+    }
+    .code-input, .code-input-hint{
+        width: getRem(370);
+    }
+    .code-send{
+        right: 0px;
+        -webkit-box-pack: center;
+        width: getRem(200);
+        border-radius: 0.15rem;
+        -webkit-border-radius: 0.15rem;
+        border-width: 1px;
+        border-style: solid;
+        font-size: $sizeA; 
+    }
+    .input-hint{
+        font-size: $sizeA;
+    }
+}
+#login-button{
+    right: 0px;
+    margin: getRem(60) $padLeft 0;
+    color: white;
+    text-align: center;
+    $height : getRem(80);
+    height: $height;
+    font-size: $sizeB;
+    line-height: $height;
+    border-radius: 0.15rem;
+    -webkit-border-radius: 0.15rem;
+}

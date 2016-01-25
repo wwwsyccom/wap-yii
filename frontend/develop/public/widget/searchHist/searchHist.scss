@@ -1,0 +1,37 @@
+@import 'd:/work/wap/develop/public/sass/commonScss.scss';
+#searchHist{
+    background-color: white;
+    h1{
+        padding: 0px $padLeft;
+        $height : getRem(60);
+        height: $height;
+        display: -webkit-box;
+        -webkit-box-align: center;
+        font-size: $sizeA;
+    }
+    ul{
+        padding: 0px $padLeft;
+    }
+    $height : getRem(80);
+    li{
+        font-size: $sizeC;
+        height: $height;
+        display: -webkit-box;
+        border-bottom: 1px solid $hrColor;
+        span{
+            display: -webkit-box;
+            height: 100%;
+            -webkit-box-align: center;
+        }
+    }
+    .name{
+        line-height: $height;
+        margin-left: getRem(26);
+    }
+    footer{
+        height: getRem(85);
+        line-height: getRem(85);
+        text-align: center;
+        font-size: $sizeC;
+    }  
+}

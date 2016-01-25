@@ -1,0 +1,45 @@
+@import 'd:/work/h5/public/sass/commonScss.scss';
+#banner-wrap{
+    width: 100%;
+    height: getRem(178);
+    position: relative;
+    overflow: hidden;
+    .hd{
+        position: absolute;
+        bottom: 15px;
+        right: 30px;
+        z-index: 999;
+        ul{
+            display: box;
+            display: -webkit-box;
+        }
+        li{
+            height: 10px;
+            width: 10px;
+            margin-right: 5px;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            background-color: blue;
+            &.on{
+                background-color: #fa4700;
+            }
+        }
+    }
+    .bd{
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        ul{
+           height: 100%; 
+           overflow: hidden;
+        }
+        li{
+           height: 100%; 
+           overflow: hidden;
+           display: inline-block;
+        }
+        img{
+            width: 10rem;
+        }
+    }
+}

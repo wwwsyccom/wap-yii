@@ -1,0 +1,78 @@
+@import 'd:/work/h5/public/sass/commonScss.scss';
+#index-nearby{
+    font-size: 12px;
+    margin-top: getRem(20);
+    margin-bottom: getRem(10);
+    background-color: white;
+    li{
+        width: 100%;
+        border-bottom: 1px solid #e5e5e5;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        padding: getRem(20) getRem(16);
+        &>div:first-child{
+            display: -webkit-box;
+            width: 100%;
+            >div:nth-child(2){
+                -webkit-box-flex: 1;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-box-pack: justify;
+            }
+            >div:last-child{
+                margin-left: getRem(22);
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-box-pack: justify;
+            }
+        }
+        &>div:last-child{
+            margin-top: getRem(10);
+            color: $mainColorBlack3;
+        }
+    }
+    .busi-img{
+        width: getRem(160);
+        height: getRem(100);
+        margin-right: getRem(22);
+        overflow: hidden;
+        img{
+            width: 100%;
+        }
+    }
+    .state{
+        color: $mainColorRed1;
+    }
+    .name{
+        color: $mainColorBlack3;
+        font-size: getRem(26);
+        margin-right: getRem(24);
+    }
+    .reservable{
+        $color: #6cb6fd;
+        font-size: getRem(16);
+        color: $color;
+        padding: getRem(5);
+        border: 1px solid $color;
+        border-radius: 0.1rem;
+        -webkit-border-radius: 0.08rem;
+    }
+    .distance{
+        color: $mainColorBlack4;
+        text-align: right;
+    }
+    .address{
+        font-size: getRem(20);
+        color: $mainColorBlack6;
+        white-space: nowrap; 
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    .name-wrapper{
+        display: -webkit-box;
+        span{
+            display: -webkit-box;
+            -webkit-box-align: center;
+        }
+    }
+}

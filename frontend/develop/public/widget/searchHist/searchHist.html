@@ -1,0 +1,11 @@
+<script type="text/html" id="searchHist-script">
+	<section id="searchHist">
+		<h1 class="color-3 bgColor-6">历史搜索记录</h1>
+		<ul>
+		    <%for(var i = 0, len = data.length; i < len; i++){%>
+			<li><a href="<%=data[i].url %>"></a><span class="iconfont color-3"><%=icon %></span><span class="name color-1"><%=data[i].name %></span></li>
+			<%}%>
+		</ul>
+		<footer class="clear color-3">清空历史搜索记录</footer>
+	</section>
+</script>

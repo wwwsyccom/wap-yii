@@ -1,0 +1,20 @@
+@import "d:/work/wap/develop/public/sass/commonScss.scss";
+#common-header{
+    position: relative;
+    width: 100%;
+    $height : getRem(88);
+    height: $height;
+    line-height: $height;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+#common-header-back{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 0 getRem(100) 0 getRem(20);
+    height: 100%;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+}
